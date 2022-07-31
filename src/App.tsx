@@ -1,22 +1,13 @@
 import React from 'react';
-import styled from 'styled-components';
-
-
-const Button = styled.button`
-  padding: 10px 20px;
-  background-color: green;
-  color: white;
-  border: none;
-  border-radius: 6px;
-`
+import GlobalStyles from './theme/globalStyles';
 
 function App() {
   return (
-    <div>
-      App
+    <>
+      <GlobalStyles />
 
-      <Button>My Button</Button>
-    </div>
+      <h2>Salom</h2>
+    </>
   );
 }
 
